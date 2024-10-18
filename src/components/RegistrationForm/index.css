@@ -1,0 +1,123 @@
+.registration-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and(min-width: 768px) {
+  .registration-form-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 50px;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 48px;
+  color: #ea580c;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+}
+
+.view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  min-height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+@media screen and(min-width: 768px) {
+  .view-container {
+    max-width: 450px;
+    flex-shrink: 0;
+    padding: 48px, 64px, 48px, 64px;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input-label {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #475569;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.name-input-field {
+  font-size: 16px;
+  line-height: 16px;
+  color: #9aa5b1;
+  font-weight: 500;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.success-img {
+  width: 72px;
+}
+
+.submit-button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #ea580c;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and(min-width: 768px) {
+  .submit-button {
+    width: 100%;
+  }
+}
+
+.error-field {
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+}
+
+.error-msg {
+  align-self: start;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  line-height: 16px;
+  color: #ff0b37;
+}
